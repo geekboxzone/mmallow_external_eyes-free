@@ -23,5 +23,6 @@ LOCAL_SRC_FILES := $(call all-java-files-under, AccessCheck/src)
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_MODULE := accessibilityvalidator
+LOCAL_JAR_MANIFEST := MANIFEST.MF
 
 include $(BUILD_HOST_JAVA_LIBRARY)
